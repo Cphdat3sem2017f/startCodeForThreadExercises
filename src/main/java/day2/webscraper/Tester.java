@@ -7,7 +7,7 @@ public class Tester {
     tc1.run();
     TagCounter tc2= new TagCounter("http://www.google.com");
     tc2.run();
-    TagCounter tc3= new TagCounter("http://cphbusiness.mrooms.net/");
+    TagCounter tc3= new TagCounter("http://politiken.dk/");
     tc3.run();
     
     System.out.println("Title: "+tc1.getTitle());
